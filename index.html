@@ -13,7 +13,7 @@
     <div class="jumbotron">
         <img src="Asset/logo1.png">
         <h1 id="element-judul">Smartphone Review By Made</h1>
-        <p>Mereview Jenis-jenis HP Terbaik 2023</p>
+        <p id="google">Mereview Jenis-jenis HP Terbaik 2023</p>
     </div>
     <nav>
         <ul>
@@ -124,5 +124,10 @@ elJudul.addEventListener('click', function() {
     elJudul.innerHTML = 'Smartphone Review By Wahyu';
     elJudul.style.color = "yellow";
     elJudul.style.backgroundColor = "green"; 
+})
+
+let google = document.getElementById('google')
+google.addEventListener('click', function() {
+    window.open("https://www.google.com");
 })
 </script>
