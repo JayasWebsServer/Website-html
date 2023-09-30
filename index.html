@@ -12,7 +12,7 @@
     <header>
     <div class="jumbotron">
         <img src="Asset/logo1.png">
-        <h1>Smartphone Review By Made</h1>
+        <h1 id="element-judul">Smartphone Review By Made</h1>
         <p>Mereview Jenis-jenis HP Terbaik 2023</p>
     </div>
     <nav>
@@ -31,7 +31,7 @@
                 <div class="profile">
                     <h2>Profil Developer</h2>
                     <figure>
-                        <img src="Asset/avatar2.png" class="rounded">
+                        <img src="Asset/avatar2.png" class="rounded" id="image">
                         <figcaption>Name: I Made Jaya Sedana</figcaption>
                         <figcaption>Date: 8.april.2011 </figcaption>
                         <figcaption>Age: 12 Yers old</figcaption>
@@ -117,3 +117,10 @@
         <p>Copyright @ By I Made jaya Sedana SmartPhones Reviews</p>
     </footer>
 </body>
+
+<script>
+let gambar = document.getElementById('image')
+gambar.addEventListener('click', function() {
+    confirm('Profil Telah Di klick')
+})
+</script>
