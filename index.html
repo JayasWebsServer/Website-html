@@ -128,6 +128,14 @@ elJudul.addEventListener('click', function() {
 
 let google = document.getElementById('google')
 google.addEventListener('click', function() {
-    window.open("https://www.google.com");
+    var yakin = confirm("Apakah yakin mau berkunjung ke situs ini? LINK : https://www.google.com/search?client=firefox-b-d&q=hp+terbaik+2023")
+    if (yakin) {
+        window.open("https://www.google.com/search?client=firefox-b-d&q=hp+terbaik+2023");
+    }
+    else {
+        alert("Error Hass Be Canceled!")
+    }
+    
 })
+
 </script>
