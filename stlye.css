@@ -1,0 +1,160 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgba(222, 74, 74, 0.728);
+    font-family: 'Montserrat', sans-serif;
+}
+header p{
+    color: white
+}
+header .jumbotron {
+    font-size: 20px;
+    padding: 60px;
+    text-align: center;
+    background-color: rgb(235, 61, 61);
+    
+}
+header .jumbotron img {
+    width: 18%;
+}
+nav {
+    top: 0;
+    position: sticky;
+}
+nav ul{
+    background-color: brown;
+    list-style: none;
+    margin: 0 ;
+    padding-left: 0;
+    text-align: center; 
+}
+nav li{
+    display: inline-block;
+    padding: 16px;
+}
+nav li a {
+    color: #fff;
+    text-decoration: none;
+}
+nav li:hover{
+    background-color: #122b24;
+    cursor:pointer
+}
+main{
+    padding: 20px;
+    overflow: auto;
+}
+.content{
+    float: left;
+    width: 50%;
+}
+.card{
+    margin-top: 20px;
+    padding: 30px;
+    border-radius: 5px;
+    background-color: rgb(231, 87, 87);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+h2 {
+    color : #122b24
+}
+.featured-image {
+    width: 100%;
+}
+.leftside{
+    float:  left;
+    width: 25%;
+    padding-right: 20px;
+}
+.leftside img{
+    width: 100px;
+    height: 100px;
+}
+.profile{
+    text-align: center;
+}
+.rounded{
+    border-radius: 50%;
+}
+.rightside{
+    float: right;
+    width: 25%;
+    padding-left:  20px;
+}
+.rightside img {
+    width: 120px;
+    height: 120px;
+}
+.articles li:hover{
+    background-color: red;
+}
+.content a:hover {
+    background-color: red;
+    color: white;
+    text-decoration: none;
+}
+.profile {
+    text-align: center;
+}
+.rounded {
+    border-radius: 50%;
+}
+.leftside .sosmed img {
+    width: 50px;
+    height: 50px;
+}
+.leftside .sosmed img:hover {
+    opacity: 0.7;
+}
+.rightside {
+    float: right;
+    width: 25%;
+    padding-left: 20px;
+}
+.rightside img {
+    width: 120px;
+    height: 120px;
+}
+.article li:hover {
+    background-color: lightgreen;
+}
+
+*{
+    box-sizing: border-box;
+}
+.content a:hover {
+   background-color: green;
+   color : white;
+}
+footer{
+    padding: 5px;
+    background-color: #112b24;
+    text-align: center;
+    color: aquamarine;
+}
+footer .imgn{
+    width: 5%;
+    height: 5%;
+}
+footer .imgn:hover{
+    content: url(asset/artikels.jpg);
+}
+footer .imgx{
+    width: 5%;
+    height: 5%;
+    text-align: center;
+    line-height: 63px;
+    background: #333;
+    border-radius: 50%;
+    font-size: 30px;
+    color: #666;
+    transition: .5s;
+}
+footer .imgx:hover{
+    background: #ffee10;
+    box-shadow: 0 0 15 #ffee10;
+}
+.glow:hover{
+    color: white;
+    text-shadow: 0 0 5px #ffee10;
+}
