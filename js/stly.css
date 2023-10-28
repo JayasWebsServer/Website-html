@@ -1,0 +1,10 @@
+body{
+    background-color: red;
+    font-family: comic sans ms;
+}
+button{
+    background-color: black;
+    font-size: large;
+    border: 50PX;
+    color: azure;
+}
